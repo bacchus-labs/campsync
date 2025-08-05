@@ -1,6 +1,19 @@
-# Data & integrations
+# Data & Integrations
 
-## Data & integration Requirements
+## Integration Touch‑Points
+
+| Domain | Needed Data |
+|--------|-------------|
+| **Camp listings** | Metadata, schedules, pricing, capacity |
+| **Maps & Geo** | Geocoding, maps tiles, distance calc |
+| **Payments** | Card & ACH processing, PCI |
+| **Email / SMS** | Notifications, marketing |
+| **Analytics** | Behavior, funnels |
+| **CRM** | Provider relations |
+| **Calendar** | Family import of session dates |
+| **Accreditation** | Camp compliance status |
+
+## Data & Integration Requirements
 
 | Domain | Must‑have data | Likely integration |
 |--------|----------------|---------------------|
@@ -11,11 +24,6 @@
 | Maps & geo | Lat/long, routing | Google Maps or Mapbox |
 | Payments | Card, ACH, payouts | Stripe Connect |
 
-### Top challenges
-- Data heterogeneity & freshness across multiple vendor APIs and open‑data feeds.
-- Availability sync to prevent overselling seats.
-- Privacy / COPPA compliance when storing children’s PII & medical forms.
-- Licensing costs & API rate limits (ACTIVE, CampSite, etc.) 
 
 ## Potential camp sources
 
@@ -31,3 +39,11 @@
 
 
 https://www.activityhero.com/in/san-francisco-ca
+
+
+
+### Top challenges
+- Data heterogeneity & freshness across multiple vendor APIs and open‑data feeds.
+- Availability sync to prevent overselling seats.
+- Privacy / COPPA compliance when storing children’s PII & medical forms.
+- Licensing costs & API rate limits (ACTIVE, CampSite, etc.) 
